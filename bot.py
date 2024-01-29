@@ -7,7 +7,6 @@ from functools import wraps
 from subprocess import getstatusoutput
 from get_video_info import get_video_attributes, get_video_thumb
 from dotenv import load_dotenv
-from pyrogram.errors import FloodWait
 from pyrogram.types.messages_and_media import message
 from pyrogram import Client
 from pyrogram import filters
